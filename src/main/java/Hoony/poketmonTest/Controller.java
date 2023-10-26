@@ -10,7 +10,7 @@ public class Controller {
 
     @GetMapping("/nextPage")
     public String nextPage() {
-        return "nextPage";
+        return "nextPage.html";
     }
 
 }
